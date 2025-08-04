@@ -1,0 +1,29 @@
+.body{
+    background: white;
+    font-family: 'Roboto';
+}
+.title{
+    color:burlywood;
+    font-size: 50px;
+    font-weight: 200;
+    position: relative;
+    text-align: center;
+}
+.text{
+    text-align: right;
+    position: relative;
+    top:-80px;
+    left:-120px;
+}
+.main-video-container iframe{
+    display: flex;
+    position: relative;
+    width:50%;
+    margin-left: 300px;
+    aspect-ratio: 16/9;
+
+}
+.threevideo{
+    aspect-ratio: 16/9;
+    width: 400px;
+}

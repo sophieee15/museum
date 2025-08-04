@@ -1,0 +1,51 @@
+body{
+    background-color:black;
+    font-family: 'Roboto';
+}
+.title{
+    color:azure;
+    font-weight:200 ;
+    font-size: 50px;
+    position: relative;
+    left:150px;
+}
+.GALLERY{
+    width:80% ;
+    margin-left: 180px;
+}
+.gallery7{
+    position: relative;
+    top:-75px;
+}
+.gallery2{
+    position: relative;
+    top:20px;
+}
+.gallery6{
+    position: relative;
+    top:20px;
+}
+.gallery4{
+    position: relative;
+    top:20px;
+}
+.gallery8{
+    position:relative;
+    top:-130px;
+}
+.gallery11{
+    position: relative;
+    top:-160px;
+}
+.gallery12{
+    position: relative;
+    top:-100px;
+}
+.gallery13{
+    position: relative;
+    top:-130px;
+}
+.gallery9{
+    position: relative;
+    top:-30px; 
+}

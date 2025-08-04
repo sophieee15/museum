@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum</title>
+    <link rel="stylesheet" href="buytickets.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1 class="title">BUY TICKETS</h1>
+<div class="line"></div>
+<img class="picture" src="assets/buytickets.png">
+<img class="picture2" src="assets/buy2.png">
+<div class="ticket-container">
+    <h2 class="title2">Ticket Type</h2>
+    <form>
+        <label><input type="radio" name="type" value="0" checked>Permanent exhibition</label>
+        <label><input type="radio" name="type" value="10">Temporary exhibition</label>
+        <label><input type="radio" name="type" value="20">Combined Admission </label>
+    </div>
+    <div class="amount-container">
+        <h3 class="title3">Amount</h3>
+        <div class="amounttop">
+            <span>Basic 18+</span>
+            <div class="counter1">
+                <button type="button" class="minus">-</button>
+                <input type="text" class="quantity" data-price="50" value="1">
+                <button type="button" class="plus">+</button>
+            </div>
+        </div>
+        <div class="amountbottom">
+            <span>Senior 65+</span>
+            <div class="counter2">
+                <button type="button" class="minus">-</button>
+                <input type="text" class="quantity" data-price="60" value="1">
+                <button type="button" class="plus">+</button>
+             </div>
+        </div>
+    </div>
+    <div class="total">
+        <strong>Total €<span id="total"></span></strong>
+    </div>
+    <button type="button" class="buy">Buy Now</button>
+    </form>
+    <script src="buy.js"></script>
+    </html>
+</body>
+    

@@ -1,0 +1,59 @@
+body{
+    background: black;
+    font-family:'Roboto';
+    color:white;
+}
+.title{
+    font-family: serif;
+    font-size:50px;
+    font-weight:200;
+    margin-left:100px ;
+}
+.line{
+    background-color:red;
+    height: 2px;
+    margin-left: 1px;
+    width: 800px;
+}
+.text1{
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+.text2{
+    margin-left: 50px;
+font-size: 15px;
+font-weight:100;
+}
+.text3{
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight:100;
+    }
+    .veil{
+        color:yellow;
+    }
+    .separate{
+        display:flex;
+        align-items: right;
+        justify-content:right;
+        gap:0px;
+
+    }
+    .left,
+    .right{
+        height:400px;
+        object-fit: cover;
+    }
+    .linee{
+        width:2px;
+        height: 400px;
+        background-color: antiquewhite;
+    }
+    .right{
+        clip-path: inset(0 0 0 62%);
+        position: relative;
+        right: 256px;
+    }
+    

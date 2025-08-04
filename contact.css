@@ -1,0 +1,67 @@
+body{
+    color:white;
+    font-family: 'Roboto';
+}
+.title{
+    color:burlywood;
+    font-weight:200 ;
+    font-size: 50px;
+    position: relative;
+    left:300px;
+    top:10px;
+}
+.line{
+    background-color: brown;
+    height: 1px;
+    width:1000px;
+}
+.text{
+    font-weight: 50px;
+    position: relative;
+    left:300px;
+    top:10px;
+    color: black;
+
+}
+.text2{
+    position: relative;
+    left:300px;
+    top:10px;
+    color: black;
+    font-weight: 10;
+
+}
+.info{
+    background-color: black;
+    position: fixed;
+    bottom:0 ;
+    width:100%;
+    height: 300px;
+
+}
+nav {
+    column-count: 2;
+    align-items: center;
+    padding: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 10;
+
+}
+.line2{
+    background-color: aliceblue;
+    weight:1200px;
+    height:2px;
+}
+.end{
+    position: relative;
+    left:1300px;
+}
+#map{
+    width:100%;
+    position: relative;
+    top: 100px;
+    left:500px;
+}
