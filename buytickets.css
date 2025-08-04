@@ -11,7 +11,7 @@ body{
     top:10px;
 }
 .line{
-    background-color: brown;
+    background-color: red;
     height: 2px;
     width:600px;
 }
